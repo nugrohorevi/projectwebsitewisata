@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.isi {
+  margin-left: 20%;
+  width: 100%;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #1e1e2d;
+  color: silver;
+  padding-right: 20%;
+  margin-right: 20%;
+}
+
+.brand {
+  color: #fff;
+  font-size: 25px;
+}
+
+.button {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+  padding-left: 10px;
+  line-height: 50px;
+  background: white;
+  color: grey;
+  position: absolute;
+  bottom: 0px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.input {
+  width: 30%;
+  position: absolute;
+  color: black;
+  margin-top: 25px;
+}
+
+.cari {
+  width: 30%;
+  position: inherit;
+  color: black;
+}
+
+.judul {
+  color: black;
+  margin-left: 20px;
+  font-size: 15pt;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-judul {
+  margin-left: 63pc;
+}
